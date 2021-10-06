@@ -1,0 +1,135 @@
+/* VARIABLES */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+:root {
+  /* COLORS */
+  --paleblue: #e0e8ff;
+  --brightblue: #3829e0;
+  --vpaleblue: #f5f7ff;
+  --dblue: #7280a7;
+  --darkblue: #1f2f56;
+  --hover: #766df1;
+
+  /* FONT + WEIGHTS */
+  --mainfont: "Red Hat Display", sans-serif;
+  --regular: 500;
+  --medium: 700;
+  --bold: 900;
+}
+
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: var(--paleblue);
+  font-family: var(--mainfont);
+}
+
+/* CARD */
+section {
+  background-color: white;
+  margin: auto;
+  width: 380px;
+  height: 580px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.199);
+}
+
+section > img {
+    border-radius: 10px 10px 0 0;
+    width: 380px;
+}
+
+section > h3 {
+  font-weight: var(--bold);
+  color: var(--darkblue);
+}
+
+section > p {
+  color: var(--dblue);
+  font-weight: var(--regular);
+}
+
+/* PLAN */
+#plan {
+  background-color: var(--vpaleblue);
+  border-radius: 10px;
+  width: 320px;
+  height: 96px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+div #note {
+  display: flex;
+  padding: 25px 0 0 15px;
+  height: 48px;
+  width: 48px;
+  object-fit: cover;
+}
+
+div #annual {
+  display: flex;
+  align-items: flex-start;
+  color: var(--darkblue);
+  padding: 12px 0 20px 10px;
+}
+
+div #txta {
+    margin-bottom: 3px;
+}
+
+div #price {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  justify-content: center;
+  padding: 20px 0 15px 0;
+  color: var(--dblue);
+  font-weight: var(--regular);
+}
+
+div #change {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding: 20px 0 15px 80px;
+  font-weight: var(--medium);
+}
+
+div #change:hover {
+    color:var(--hover);
+    text-decoration: none;
+}
+
+section > a {
+  color: var(--dblue);
+  font-weight: var(--medium);
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+}
+section > a:hover {
+    color:var(--darkblue);
+}
+
+/* BUTTON */
+section > button {
+    font-family: var(--mainfont);
+    background-color: var(--brightblue);
+    color: white;
+    margin-top: 10px;
+    margin: auto;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    font-weight: var(--medium);
+    border: none;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.199);
+}
+
+section > button:hover {
+    background-color: var(--hover);
+}
