@@ -134,6 +134,14 @@ section > button:hover {
     background-color: var(--hover);
 }
 
+section > .attribution { 
+  font-size: 11px;
+  text-align: center;
+  color: black; 
+}
+section > .attribution a { 
+  color: hsl(228, 45%, 44%); }
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 300px) {
     section {
