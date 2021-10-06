@@ -133,3 +133,96 @@ section > button {
 section > button:hover {
     background-color: var(--hover);
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 300px) {
+    section {
+      width: 250px;
+      margin: auto;
+    }
+    section > img {
+      width: 250px;
+    }
+  
+    #plan {
+      width: 230px;
+    }
+    div #change {
+      padding: 20px 0 15px 3px;
+    }
+      section > button {
+      width: 220px;
+    }
+  }
+
+@media screen and (max-width: 320px) {
+    section {
+      width: 300px;
+      margin: auto;
+    }
+    section > img {
+      width: 300px;
+    }
+  
+    #plan {
+      width: 270px;
+    }
+    div #change {
+      padding: 20px 0 15px 40px;
+    }
+  
+    section > button {
+      width: 280px;
+    }
+  }
+@media screen and (max-width: 360px) {
+    section {
+      width: 320px;
+      margin: auto;
+    }
+    section > img {
+      width: 320px;
+    }
+  
+    #plan {
+      width: 280px;
+    }
+    div #change {
+      padding: 20px 0 15px 40px;
+    }
+  }
+@media screen and (max-width: 450px) {
+    section {
+      width: 350px;
+      margin: auto;
+    }
+    section > img {
+      width: 350px;
+    }
+  
+    #plan {
+      width: 300px;
+    }
+    div #change {
+      padding: 20px 0 15px 60px;
+    }
+  }
+@media screen and (max-width: 800px) {
+    section {
+      width: 500px;
+      margin: auto;
+    }
+    section > img {
+      width: 500px;
+    }
+  
+    #plan {
+      width: 400px;
+    }
+    div #change {
+      padding: 20px 0 15px 150px;
+    }
+    section > button {
+      width: 380px;
+    }
+  }
